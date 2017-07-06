@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (4.5.0)
+  - AlgoliaSearch-Client-Swift (4.8.1)
+  - Kanna (2.1.1)
+  - Kingfisher (3.10.3)
+  - RDVTabBarController (1.1.9)
+  - ReachabilitySwift (3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - AlgoliaSearch-Client-Swift (~> 4.0)
+  - Kanna (~> 2.1.0)
+  - Kingfisher (~> 3.0)
+  - RDVTabBarController
+  - ReachabilitySwift (~> 3)
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  AlgoliaSearch-Client-Swift: 5bdfbc8727f203773245e2410edd7a9c8e831637
+  Kanna: 9b4b086c218703f2b94f5b21a466217dd2f9332e
+  Kingfisher: a0ac82dc5bcf0388dd74b294cf2cc13730c63436
+  RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+
+PODFILE CHECKSUM: a9f8b0048149557f681a999025488076d45fecfe
+
+COCOAPODS: 1.2.1

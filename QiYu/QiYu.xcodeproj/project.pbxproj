@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F1472881F0E36BB00E9EF24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1472821F0E36BB00E9EF24 /* Assets.xcassets */; };
+		4F1472891F0E36BB00E9EF24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1472831F0E36BB00E9EF24 /* LaunchScreen.storyboard */; };
+		4F14728A1F0E36BB00E9EF24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1472851F0E36BB00E9EF24 /* Main.storyboard */; };
+		4F14728B1F0E36BB00E9EF24 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F1472871F0E36BB00E9EF24 /* Info.plist */; };
+		4FF0FA471F0E2FA8005AAD20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF0FA461F0E2FA8005AAD20 /* AppDelegate.swift */; };
+		4FF0FA5C1F0E2FA8005AAD20 /* QiYuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF0FA5B1F0E2FA8005AAD20 /* QiYuTests.swift */; };
+		4FF0FA671F0E2FA8005AAD20 /* QiYuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF0FA661F0E2FA8005AAD20 /* QiYuUITests.swift */; };
+		F589FD8FE0A776764ED96C82 /* Pods_QiYu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FA9E7A3D042EF08E9E04AC /* Pods_QiYu.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FF0FA581F0E2FA8005AAD20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FF0FA3B1F0E2FA8005AAD20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FF0FA421F0E2FA8005AAD20;
+			remoteInfo = QiYu;
+		};
+		4FF0FA631F0E2FA8005AAD20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FF0FA3B1F0E2FA8005AAD20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FF0FA421F0E2FA8005AAD20;
+			remoteInfo = QiYu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41FA9E7A3D042EF08E9E04AC /* Pods_QiYu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiYu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C9AC1FC2C997BD283241D9 /* Pods-QiYu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiYu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiYu/Pods-QiYu.debug.xcconfig"; sourceTree = "<group>"; };
+		4F1472821F0E36BB00E9EF24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F1472841F0E36BB00E9EF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F1472861F0E36BB00E9EF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F1472871F0E36BB00E9EF24 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF0FA431F0E2FA8005AAD20 /* QiYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF0FA461F0E2FA8005AAD20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FF0FA571F0E2FA8005AAD20 /* QiYuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiYuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF0FA5B1F0E2FA8005AAD20 /* QiYuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiYuTests.swift; sourceTree = "<group>"; };
+		4FF0FA5D1F0E2FA8005AAD20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF0FA621F0E2FA8005AAD20 /* QiYuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiYuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF0FA661F0E2FA8005AAD20 /* QiYuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiYuUITests.swift; sourceTree = "<group>"; };
+		4FF0FA681F0E2FA8005AAD20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F66CFFFFB44654E0ACE44F07 /* Pods-QiYu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiYu.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiYu/Pods-QiYu.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FF0FA401F0E2FA8005AAD20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F589FD8FE0A776764ED96C82 /* Pods_QiYu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF0FA541F0E2FA8005AAD20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF0FA5F1F0E2FA8005AAD20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BE789D2FA92AC70C5D1B1D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41FA9E7A3D042EF08E9E04AC /* Pods_QiYu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32C40B623C2519FB88C98A46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44C9AC1FC2C997BD283241D9 /* Pods-QiYu.debug.xcconfig */,
+				F66CFFFFB44654E0ACE44F07 /* Pods-QiYu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F1472711F0E36BB00E9EF24 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4F1472721F0E36BB00E9EF24 /* Controllers */,
+				4F14727D1F0E36BB00E9EF24 /* Views */,
+				4F14727C1F0E36BB00E9EF24 /* Models */,
+				4F1472761F0E36BB00E9EF24 /* Functional */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4F1472721F0E36BB00E9EF24 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F1472731F0E36BB00E9EF24 /* General */,
+				4F1472741F0E36BB00E9EF24 /* Home */,
+				4F1472751F0E36BB00E9EF24 /* Profile */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4F1472731F0E36BB00E9EF24 /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		4F1472741F0E36BB00E9EF24 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4F1472751F0E36BB00E9EF24 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		4F1472761F0E36BB00E9EF24 /* Functional */ = {
+			isa = PBXGroup;
+			children = (
+				4F1472771F0E36BB00E9EF24 /* Extensions */,
+				4F1472781F0E36BB00E9EF24 /* GlobalConfigs */,
+				4F1472791F0E36BB00E9EF24 /* Managers */,
+				4F14727A1F0E36BB00E9EF24 /* Resources */,
+				4F14727B1F0E36BB00E9EF24 /* Transitions */,
+			);
+			path = Functional;
+			sourceTree = "<group>";
+		};
+		4F1472771F0E36BB00E9EF24 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4F1472781F0E36BB00E9EF24 /* GlobalConfigs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GlobalConfigs;
+			sourceTree = "<group>";
+		};
+		4F1472791F0E36BB00E9EF24 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4F14727A1F0E36BB00E9EF24 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4F14727B1F0E36BB00E9EF24 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		4F14727C1F0E36BB00E9EF24 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4F14727D1F0E36BB00E9EF24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F14727E1F0E36BB00E9EF24 /* General */,
+				4F14727F1F0E36BB00E9EF24 /* Home */,
+				4F1472801F0E36BB00E9EF24 /* Profile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F14727E1F0E36BB00E9EF24 /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		4F14727F1F0E36BB00E9EF24 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4F1472801F0E36BB00E9EF24 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		4F1472811F0E36BB00E9EF24 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4F1472821F0E36BB00E9EF24 /* Assets.xcassets */,
+				4F1472831F0E36BB00E9EF24 /* LaunchScreen.storyboard */,
+				4F1472851F0E36BB00E9EF24 /* Main.storyboard */,
+				4F1472871F0E36BB00E9EF24 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		4FF0FA3A1F0E2FA8005AAD20 = {
+			isa = PBXGroup;
+			children = (
+				4FF0FA451F0E2FA8005AAD20 /* QiYu */,
+				4FF0FA5A1F0E2FA8005AAD20 /* QiYuTests */,
+				4FF0FA651F0E2FA8005AAD20 /* QiYuUITests */,
+				4FF0FA441F0E2FA8005AAD20 /* Products */,
+				32C40B623C2519FB88C98A46 /* Pods */,
+				2BE789D2FA92AC70C5D1B1D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FF0FA441F0E2FA8005AAD20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FF0FA431F0E2FA8005AAD20 /* QiYu.app */,
+				4FF0FA571F0E2FA8005AAD20 /* QiYuTests.xctest */,
+				4FF0FA621F0E2FA8005AAD20 /* QiYuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FF0FA451F0E2FA8005AAD20 /* QiYu */ = {
+			isa = PBXGroup;
+			children = (
+				4FF0FA461F0E2FA8005AAD20 /* AppDelegate.swift */,
+				4F1472711F0E36BB00E9EF24 /* Classes */,
+				4F1472811F0E36BB00E9EF24 /* SupportingFiles */,
+			);
+			path = QiYu;
+			sourceTree = "<group>";
+		};
+		4FF0FA5A1F0E2FA8005AAD20 /* QiYuTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FF0FA5B1F0E2FA8005AAD20 /* QiYuTests.swift */,
+				4FF0FA5D1F0E2FA8005AAD20 /* Info.plist */,
+			);
+			path = QiYuTests;
+			sourceTree = "<group>";
+		};
+		4FF0FA651F0E2FA8005AAD20 /* QiYuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FF0FA661F0E2FA8005AAD20 /* QiYuUITests.swift */,
+				4FF0FA681F0E2FA8005AAD20 /* Info.plist */,
+			);
+			path = QiYuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FF0FA421F0E2FA8005AAD20 /* QiYu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FF0FA6B1F0E2FA8005AAD20 /* Build configuration list for PBXNativeTarget "QiYu" */;
+			buildPhases = (
+				82A8910068782BFCC16ADEE2 /* [CP] Check Pods Manifest.lock */,
+				4FF0FA3F1F0E2FA8005AAD20 /* Sources */,
+				4FF0FA401F0E2FA8005AAD20 /* Frameworks */,
+				4FF0FA411F0E2FA8005AAD20 /* Resources */,
+				9E8AE3AE4C9CC72775886D07 /* [CP] Embed Pods Frameworks */,
+				BDB8CE30AADA1955F779FB3C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiYu;
+			productName = QiYu;
+			productReference = 4FF0FA431F0E2FA8005AAD20 /* QiYu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FF0FA561F0E2FA8005AAD20 /* QiYuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FF0FA6E1F0E2FA8005AAD20 /* Build configuration list for PBXNativeTarget "QiYuTests" */;
+			buildPhases = (
+				4FF0FA531F0E2FA8005AAD20 /* Sources */,
+				4FF0FA541F0E2FA8005AAD20 /* Frameworks */,
+				4FF0FA551F0E2FA8005AAD20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FF0FA591F0E2FA8005AAD20 /* PBXTargetDependency */,
+			);
+			name = QiYuTests;
+			productName = QiYuTests;
+			productReference = 4FF0FA571F0E2FA8005AAD20 /* QiYuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FF0FA611F0E2FA8005AAD20 /* QiYuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FF0FA711F0E2FA8005AAD20 /* Build configuration list for PBXNativeTarget "QiYuUITests" */;
+			buildPhases = (
+				4FF0FA5E1F0E2FA8005AAD20 /* Sources */,
+				4FF0FA5F1F0E2FA8005AAD20 /* Frameworks */,
+				4FF0FA601F0E2FA8005AAD20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FF0FA641F0E2FA8005AAD20 /* PBXTargetDependency */,
+			);
+			name = QiYuUITests;
+			productName = QiYuUITests;
+			productReference = 4FF0FA621F0E2FA8005AAD20 /* QiYuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FF0FA3B1F0E2FA8005AAD20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Judson;
+				TargetAttributes = {
+					4FF0FA421F0E2FA8005AAD20 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W7SG65YH8Q;
+						ProvisioningStyle = Automatic;
+					};
+					4FF0FA561F0E2FA8005AAD20 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W7SG65YH8Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4FF0FA421F0E2FA8005AAD20;
+					};
+					4FF0FA611F0E2FA8005AAD20 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W7SG65YH8Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4FF0FA421F0E2FA8005AAD20;
+					};
+				};
+			};
+			buildConfigurationList = 4FF0FA3E1F0E2FA8005AAD20 /* Build configuration list for PBXProject "QiYu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FF0FA3A1F0E2FA8005AAD20;
+			productRefGroup = 4FF0FA441F0E2FA8005AAD20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FF0FA421F0E2FA8005AAD20 /* QiYu */,
+				4FF0FA561F0E2FA8005AAD20 /* QiYuTests */,
+				4FF0FA611F0E2FA8005AAD20 /* QiYuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FF0FA411F0E2FA8005AAD20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1472881F0E36BB00E9EF24 /* Assets.xcassets in Resources */,
+				4F14728A1F0E36BB00E9EF24 /* Main.storyboard in Resources */,
+				4F1472891F0E36BB00E9EF24 /* LaunchScreen.storyboard in Resources */,
+				4F14728B1F0E36BB00E9EF24 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF0FA551F0E2FA8005AAD20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF0FA601F0E2FA8005AAD20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82A8910068782BFCC16ADEE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E8AE3AE4C9CC72775886D07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiYu/Pods-QiYu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB8CE30AADA1955F779FB3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiYu/Pods-QiYu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FF0FA3F1F0E2FA8005AAD20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF0FA471F0E2FA8005AAD20 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF0FA531F0E2FA8005AAD20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF0FA5C1F0E2FA8005AAD20 /* QiYuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF0FA5E1F0E2FA8005AAD20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF0FA671F0E2FA8005AAD20 /* QiYuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FF0FA591F0E2FA8005AAD20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FF0FA421F0E2FA8005AAD20 /* QiYu */;
+			targetProxy = 4FF0FA581F0E2FA8005AAD20 /* PBXContainerItemProxy */;
+		};
+		4FF0FA641F0E2FA8005AAD20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FF0FA421F0E2FA8005AAD20 /* QiYu */;
+			targetProxy = 4FF0FA631F0E2FA8005AAD20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F1472831F0E36BB00E9EF24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F1472841F0E36BB00E9EF24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4F1472851F0E36BB00E9EF24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F1472861F0E36BB00E9EF24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FF0FA691F0E2FA8005AAD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FF0FA6A1F0E2FA8005AAD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FF0FA6C1F0E2FA8005AAD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44C9AC1FC2C997BD283241D9 /* Pods-QiYu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W7SG65YH8Q;
+				INFOPLIST_FILE = QiYu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenenhu.QiYu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4FF0FA6D1F0E2FA8005AAD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66CFFFFB44654E0ACE44F07 /* Pods-QiYu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W7SG65YH8Q;
+				INFOPLIST_FILE = QiYu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenenhu.QiYu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4FF0FA6F1F0E2FA8005AAD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W7SG65YH8Q;
+				INFOPLIST_FILE = QiYuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenenhu.QiYuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiYu.app/QiYu";
+			};
+			name = Debug;
+		};
+		4FF0FA701F0E2FA8005AAD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W7SG65YH8Q;
+				INFOPLIST_FILE = QiYuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenenhu.QiYuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiYu.app/QiYu";
+			};
+			name = Release;
+		};
+		4FF0FA721F0E2FA8005AAD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W7SG65YH8Q;
+				INFOPLIST_FILE = QiYuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenenhu.QiYuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QiYu;
+			};
+			name = Debug;
+		};
+		4FF0FA731F0E2FA8005AAD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W7SG65YH8Q;
+				INFOPLIST_FILE = QiYuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenenhu.QiYuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QiYu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FF0FA3E1F0E2FA8005AAD20 /* Build configuration list for PBXProject "QiYu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF0FA691F0E2FA8005AAD20 /* Debug */,
+				4FF0FA6A1F0E2FA8005AAD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FF0FA6B1F0E2FA8005AAD20 /* Build configuration list for PBXNativeTarget "QiYu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF0FA6C1F0E2FA8005AAD20 /* Debug */,
+				4FF0FA6D1F0E2FA8005AAD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FF0FA6E1F0E2FA8005AAD20 /* Build configuration list for PBXNativeTarget "QiYuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF0FA6F1F0E2FA8005AAD20 /* Debug */,
+				4FF0FA701F0E2FA8005AAD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FF0FA711F0E2FA8005AAD20 /* Build configuration list for PBXNativeTarget "QiYuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF0FA721F0E2FA8005AAD20 /* Debug */,
+				4FF0FA731F0E2FA8005AAD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FF0FA3B1F0E2FA8005AAD20 /* Project object */;
+}
