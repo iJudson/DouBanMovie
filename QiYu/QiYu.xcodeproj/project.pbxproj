@@ -18,6 +18,12 @@
 		4F4138781F136B9100C3AD51 /* UICell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4138771F136B9100C3AD51 /* UICell+Extension.swift */; };
 		4F5DEBA91F1336CA00EDCAEA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5DEBA81F1336CA00EDCAEA /* HomeViewController.swift */; };
 		4F5DEBAB1F1336E400EDCAEA /* ProfileCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5DEBAA1F1336E400EDCAEA /* ProfileCenterViewController.swift */; };
+		4F76D4991F1A63170088B9E3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F76D4981F1A63170088B9E3 /* BaseViewController.swift */; };
+		4F76D49B1F1A7C370088B9E3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F76D49A1F1A7C370088B9E3 /* MenuViewController.swift */; };
+		4F76D49F1F1B3CC80088B9E3 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F76D49E1F1B3CC80088B9E3 /* NavigationController.swift */; };
+		4FCB14941F1B511500766382 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FCB14931F1B511500766382 /* Info.plist */; };
+		4FCB14961F1B51E800766382 /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB14951F1B51E800766382 /* UIStoryboard+Extension.swift */; };
+		4FCB14981F1B5E7C00766382 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB14971F1B5E7C00766382 /* ColorManager.swift */; };
 		4FD95B5F1F120F5200593389 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD95B5E1F120F5200593389 /* String+Extension.swift */; };
 		4FD95B611F120FDD00593389 /* GlobalConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD95B601F120FDD00593389 /* GlobalConfigs.swift */; };
 		4FF0FA471F0E2FA8005AAD20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF0FA461F0E2FA8005AAD20 /* AppDelegate.swift */; };
@@ -57,6 +63,12 @@
 		4F4138771F136B9100C3AD51 /* UICell+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICell+Extension.swift"; sourceTree = "<group>"; };
 		4F5DEBA81F1336CA00EDCAEA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4F5DEBAA1F1336E400EDCAEA /* ProfileCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCenterViewController.swift; sourceTree = "<group>"; };
+		4F76D4981F1A63170088B9E3 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4F76D49A1F1A7C370088B9E3 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		4F76D49E1F1B3CC80088B9E3 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		4FCB14931F1B511500766382 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		4FCB14951F1B51E800766382 /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
+		4FCB14971F1B5E7C00766382 /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
 		4FD95B5E1F120F5200593389 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		4FD95B601F120FDD00593389 /* GlobalConfigs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConfigs.swift; sourceTree = "<group>"; };
 		4FF0FA431F0E2FA8005AAD20 /* QiYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,17 +139,21 @@
 		4F1472721F0E36BB00E9EF24 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4F1472731F0E36BB00E9EF24 /* General */,
+				4F1472731F0E36BB00E9EF24 /* Base */,
 				4F1472741F0E36BB00E9EF24 /* Home */,
 				4F1472751F0E36BB00E9EF24 /* Profile */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		4F1472731F0E36BB00E9EF24 /* General */ = {
+		4F1472731F0E36BB00E9EF24 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				4F76D4981F1A63170088B9E3 /* BaseViewController.swift */,
+				4F76D49A1F1A7C370088B9E3 /* MenuViewController.swift */,
+				4F76D49E1F1B3CC80088B9E3 /* NavigationController.swift */,
 			);
+			name = Base;
 			path = General;
 			sourceTree = "<group>";
 		};
@@ -179,6 +195,7 @@
 				4F36EB1A1F16790B0030C42C /* UIControl+Extension.swift */,
 				4F36EB1C1F1679FB0030C42C /* UIColor+Extension.swift */,
 				4F36EB1E1F167A320030C42C /* NSNotificationName+Extension.swift */,
+				4FCB14951F1B51E800766382 /* UIStoryboard+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -194,6 +211,7 @@
 		4F1472791F0E36BB00E9EF24 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				4FCB14971F1B5E7C00766382 /* ColorManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -253,6 +271,7 @@
 		4F1472811F0E36BB00E9EF24 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				4FCB14931F1B511500766382 /* Info.plist */,
 				4F1472821F0E36BB00E9EF24 /* Assets.xcassets */,
 				4F1472831F0E36BB00E9EF24 /* LaunchScreen.storyboard */,
 			);
@@ -423,6 +442,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FCB14941F1B511500766382 /* Info.plist in Resources */,
 				4F1472881F0E36BB00E9EF24 /* Assets.xcassets in Resources */,
 				4F14728A1F0E36BB00E9EF24 /* Main.storyboard in Resources */,
 				4F1472891F0E36BB00E9EF24 /* LaunchScreen.storyboard in Resources */,
@@ -503,12 +523,17 @@
 				4FD95B611F120FDD00593389 /* GlobalConfigs.swift in Sources */,
 				4F36EB191F1678D30030C42C /* Date+Extension.swift in Sources */,
 				4F4138761F13694D00C3AD51 /* UIButton+Extension.swift in Sources */,
+				4F76D49F1F1B3CC80088B9E3 /* NavigationController.swift in Sources */,
+				4F76D4991F1A63170088B9E3 /* BaseViewController.swift in Sources */,
+				4FCB14981F1B5E7C00766382 /* ColorManager.swift in Sources */,
 				4F5DEBA91F1336CA00EDCAEA /* HomeViewController.swift in Sources */,
+				4F76D49B1F1A7C370088B9E3 /* MenuViewController.swift in Sources */,
 				4FD95B5F1F120F5200593389 /* String+Extension.swift in Sources */,
 				4F4138781F136B9100C3AD51 /* UICell+Extension.swift in Sources */,
 				4FF0FA471F0E2FA8005AAD20 /* AppDelegate.swift in Sources */,
 				4F36EB1D1F1679FB0030C42C /* UIColor+Extension.swift in Sources */,
 				4F36EB1F1F167A320030C42C /* NSNotificationName+Extension.swift in Sources */,
+				4FCB14961F1B51E800766382 /* UIStoryboard+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

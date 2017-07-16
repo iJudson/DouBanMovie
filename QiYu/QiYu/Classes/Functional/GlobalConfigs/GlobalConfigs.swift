@@ -13,3 +13,7 @@ let illustrationImageResolution = "!540"
 let similarArticleImageResolution = "!320"
 
 let cacheSizeForMB: UInt = 1024 * 1024
+
+let tabBarHeight: CGFloat = 49.0
+let screenWidth: CGFloat = UIScreen.main.bounds.width
+let screenHeight: CGFloat = UIScreen.main.bounds.height
