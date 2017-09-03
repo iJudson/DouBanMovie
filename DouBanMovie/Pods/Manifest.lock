@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (4.5.0)
+  - AlgoliaSearch-Client-Swift (4.8.1)
+  - Kanna (2.1.1)
+  - Kingfisher (3.12.2)
+  - RDVTabBarController (1.1.9)
+  - ReachabilitySwift (3)
+  - RxCocoa (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxDataSources (1.0.4):
+    - RxCocoa (~> 3.0)
+    - RxSwift (~> 3.0)
+  - RxSwift (3.6.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - AlgoliaSearch-Client-Swift (~> 4.0)
+  - Kanna (~> 2.1.0)
+  - Kingfisher (~> 3.0)
+  - RDVTabBarController
+  - ReachabilitySwift (~> 3)
+  - RxCocoa (= 3.6.1)
+  - RxDataSources (= 1.0.4)
+  - RxSwift (= 3.6.1)
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  AlgoliaSearch-Client-Swift: 5bdfbc8727f203773245e2410edd7a9c8e831637
+  Kanna: 9b4b086c218703f2b94f5b21a466217dd2f9332e
+  Kingfisher: 320626678acadfcf47008b3c6841cd882050737b
+  RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
+  RxDataSources: b3389acc5fe2eefb8fcd81a2b76a876ad08bc82a
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+
+PODFILE CHECKSUM: 1c8cf4f631b750fc7ece2be6046575693d7a3db9
+
+COCOAPODS: 1.2.1
